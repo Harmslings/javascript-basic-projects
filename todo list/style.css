@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 700px;
+    min-height: 500px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#item {
+    width: 100%;
+    height: 6vh;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    border: none;
+    outline: none;
+    font-style: italic;
+    box-shadow: 2px 2px 2px 2px orangered;
+}
+#todoBox {
+    margin-top: 15px;
+    list-style: none;
+}
+#todoBox li {
+background-color: #555353;
+padding: 10px;
+color: aliceblue;
+border-radius: 5px;
+font-size: 22px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style:italic;
+position: relative;
+padding: 30px;
+text-align: justify;
+margin-top: 15px;
+user-select: none;
+}
+
+#todoBox li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: red !important;
+    background-color: black !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+

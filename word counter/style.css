@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #0067B0;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#textbox {
+    width: 90%;
+    border: 2px solid black;
+    margin: 30px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    background-color: #0067B0;
+    color: white;
+    height: 8vh;
+    padding: 12px;
+    text-transform: capitalize;
+    font-size: large;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
