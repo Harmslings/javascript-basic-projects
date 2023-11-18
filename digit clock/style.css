@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    background-image: url(https://i.gifer.com/origin/20/2044500a9a0cef20ef935c31946538a1.gif);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+
+.clock {
+    display: flex;
+
+}
+
+.clock .spn {
+    margin: 5px;
+}
+
+.clock span {
+    width: 150px;
+    height: 100px;
+    background: slateblue;
+    opacity: .8;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    height: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.clock #AmPm{
+    bottom: 40vh;
+    position: absolute;
+    width: 120px;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 60px;
+    background: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
