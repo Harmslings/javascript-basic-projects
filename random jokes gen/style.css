@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    color: white;
+}
+
+.container{
+    width: 450px;
+    padding: 22px;
+    background-color: #095252;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+button {
+    width: 130px;
+    height: 38px;
+    background-color: #362b2b;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: larger;
+    margin: 15px;
+}
+
+img {
+    width: 20%;
+    margin: 20px;
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

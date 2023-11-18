@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 20vh;
+    position: relative;
+    left: 500px;
+    border-radius: 10%;
+    font-size: larger;
+    font-weight: 800;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    margin: 20px;
+    border: 2px solid white;
+
+}
+
+button:hover {
+    background-color: red;
+    color: blue;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+

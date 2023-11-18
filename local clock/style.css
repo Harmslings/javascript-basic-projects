@@ -1,0 +1,42 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+html,body {
+    display: grid;
+    place-items: center;
+    background: #373b37;
+}
+
+.wrapper {
+    width: 420px;
+    height: 110px;
+    background: linear-gradient(135deg,#63cece,#efe418,#e451d7);
+    margin-top: 33%;
+    border-radius: 10px;
+}
+
+.wrapper .clock {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 405px;
+    height: 95px;
+    background: #373b37;
+}
+
+.clock #time {
+    font-size: 65px;
+    padding: 12px;
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_b99c8103-0e9c-41eb-a7f8-4f121d0a28cb.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: rgb(109,175,106);
+    background: radial-gradient(circle, rgba(109,175,106,1) 0%, rgba(18,78,124,0.5646591400231968) 100%); 
+    height: fit-content;
+    width: 50vw;
+    position: relative;
+    top: 20vh;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+.main p {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 30px;
+    text-decoration: underline red;
+}
+.main .textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.main .textbox input {
+    border-radius: 10px;
+    height: 6vh;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid orangered;
+}
+
+.main .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .btn button {
+    padding: 12px 14px;
+    margin-top: 30px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: 2px solid navy;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.main .btn button:hover {
+    background-color: darkcyan;
+}
+
+.main .qrImage {
+    text-align: center;
+    margin-top: 20px;
+}
+.error {
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
